@@ -1,0 +1,29 @@
+name: ChunkLoader
+main: chunkLoader.Main
+author: YTC-Fmarco98
+spigot-api: '1.13'
+
+description: Chunk loader plugin, it keeps chunks loaded
+
+commands: 
+  chunklist:
+    description: it returns the list of chunks should be loaded from config.yml
+    usage: /<command>
+    aliases: [clist, cl]
+  
+  chunkloadedlist:
+    description: it retruns the chunk force loaded list 
+    usage: /<command>
+    aliases: [cloaded, cllist, cll]
+  
+  chunkload:
+    description: it sets to enable the chunk forced loading
+    usage: /<command>
+    aliases: [cload]
+  
+  chunkunload:
+    description: it sets to disable the chunk forced loading
+    usage: /<command>
+    aliases: [cunload]
+
+version: '2.1'

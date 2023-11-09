@@ -1,0 +1,45 @@
+ChunkLoader:
+    # To colour your messages use this colour and format codes:
+    # Colours:
+    #   §4 - Dark red                  §c - Red
+    #   §6 - Gold                      §e - Yellow
+    #   §2 - Dark green                §a - Green
+    #   §b - Aqua                      §3 - Dark aqua
+    #   §1 - Dark blue                 §9 - Blue
+    #   §d - Light purple              §5 - Dark purple
+    #   §f - White                     §7 - Gray
+    #   §8 - Dark gray                 §0 - Black
+    # Format:
+    #   §k - Obfuscated                §l - Bold
+    #   §m - Strikethrough             §N - Underline
+    #   §o - Italic                    §r - reset (it resets all colours and formats)
+    
+  messages:
+    # message showed to the players try to use permissioned command, but they haven't permission to use them
+    cannot-use-cmd: 'You haven''t permission to use this command'
+    # message showed to the player before the print of the chunk list that should be FORCE loaded. (You find the list under the set "chunks" and you must use the example format to add other chunks by the yml)
+    chunklist-msg: 'Chunk list of chunk that should be loaded:'
+    # message showed to the player before the print of the chunk list that are FORCE loaded in the server at the moment. (You can use chunkloadedlist command to verify if the chunks are loaded)
+    chunkloadedlist-msg: 'Chunk list of chunk are force loaded:'
+    
+    # messages for chunkload command
+    chunkload:
+      # message showed to the player when he enables the chunk forced loading
+      forced-loading-enabled: 'Enabled forced loading for chunk'# + Chunk coordinates 
+      # message showed to the player when try to enable a enabled chunk
+      forced-loading-already-enabled: 'Forced loading has already enabled for this chunk'
+    
+    # messages for chunkunload command
+    chunkunload:
+      # message showed to the player when he disables the chunk forced loading
+      forced-loading-disabled: 'Disabled forced loading for chunk'# + Chunk coordinates
+      # message showed to the player when try to disable a disabled chunk
+      forced-loading-already-disabled: 'Forced loading has already disabled for this chunk'
+  
+  # if true, it'll show starting chunks loading debug (shows the chunks loanding into the console)
+  debug: true
+  
+  # list of chunks that you would load, for NOW ChunkLoader can load only overworld chunks
+  # chunk format: x z ,Example: - 1 3 (it indicates the Chunk at x:1 and z:3)
+  chunks:
+   - 0 0
