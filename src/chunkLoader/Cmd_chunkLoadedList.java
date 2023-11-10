@@ -7,8 +7,8 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class Cmd_chunkLoadedList implements CommandExecutor{
-	
+public class Cmd_chunkLoadedList implements CommandExecutor{ 
+	 
 	@Override
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {	
 		//Comando eseguibile da tutti i sender type

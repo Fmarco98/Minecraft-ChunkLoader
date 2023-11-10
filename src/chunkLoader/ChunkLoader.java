@@ -7,7 +7,7 @@ import java.util.List;
 import org.bukkit.Bukkit;
 import org.bukkit.Chunk;
 
-public class ChunkLoader {
+public class ChunkLoader { 
 	
 	/**
 	 * It unloads all chuncks of loaded list

@@ -1,6 +1,6 @@
 name: ChunkLoader
 main: chunkLoader.Main
-author: YTC-Fmarco98
+author: YTC-Fmarco98 
 spigot-api: '1.13'
 
 description: Chunk loader plugin, it keeps chunks loaded
